@@ -7,4 +7,7 @@ class User < ApplicationRecord
   has_many :payments, foreign_key: 'author_id', dependent: :destroy
   validates :name, presence: true, length: { in: 6..50 }
 
+  def admin?
+    role == 'admin'
+  end
 end
