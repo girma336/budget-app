@@ -1,18 +1,18 @@
 databases:
-  - name: recipe
-    databaseName: recipe_c89l
-    user: recipe_c89l_user
+  - name: budget-app-bd
+    databaseName: budget_app_bd
+    user: budget_app_bd_user
 
 services:
   - type: web
-    name: buget-app
+    name: budget-app-girma
     env: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: recipe_c89l
+          name: budget_app_bd
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
