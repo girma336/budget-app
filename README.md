@@ -55,7 +55,7 @@ The Recipe App was built with:
 
 ### Live Demo <a name="live-demo"></a>
 
-[Live Demo]()
+[Live Demo](https://budget-app-girma.onrender.com)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
