@@ -131,6 +131,10 @@ body {
   margin: 2px;
 }
 
+.input-div {
+  width: 200px;
+}
+
 .input-form:hover,
 .input-form:focus {
   outline: none;
@@ -197,18 +201,18 @@ body {
   justify-content: center;
   bottom: 10px;
   width: 98%;
-  height: 70px;
+  height: 60px;
   background-color: green;
   text-align: center;
   margin-top: 10px;
 }
 
 .add-new {
-  font-size: 24px;
+  font-size: 20px;
   color: #fff;
   text-decoration: none;
   border: 1px solid #fff;
-  padding: 10px 30px;
+  padding: 8px 30px;
   cursor: pointer;
 }
 

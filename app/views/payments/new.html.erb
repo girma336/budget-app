@@ -21,7 +21,7 @@
     
     <div class="field">
       <p>categories</p>
-      <%= form.collection_select(:group_ids, current_user.groups, :id, :name, { selected: @group.id }, { multiple: true, class: "form-control" }) %>
+      <%= form.collection_select(:group_ids, current_user.groups, :id, :name, { selected: @group.id }, { multiple: true, class: "input-div" }) %>
     </div>
 
     <div class="actions">
