@@ -82,7 +82,7 @@ After installing Ruby, run the following command to install rails.-
 - Make sure to add .env file on your root directory and setup your .env file with your postgres username and password!
 
 ```sh
-  git clone https://github.com:girma336/Budget-app.git
+  git clone https://github.com:girma336/budget-app.git
   bundle install
   rails s
 ```
@@ -146,7 +146,7 @@ Next setup your .env so that you can create your dbs. Then:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/girma336/Buget-app/issues/).
+Feel free to check the [issues page](https://github.com/girma336/budget-app/issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
